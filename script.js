@@ -8,7 +8,7 @@ const SITE_CONFIG = {
   email: "itsnavneetmishra89@gmail.com", // Example: "hello@example.com" — use an address you are comfortable sharing
   github: "https://github.com/NavneetMishraCodes", // Example: "https://github.com/your-username"
   links: {
-    captionSource: "", // Example: "https://github.com/your-username/caption-studio"
+    captionSource: "https://github.com/NavneetMishraCodes", // Example: "https://github.com/your-username/caption-studio"
     panjetaSource: "https://github.com/NavneetMishraCodes/panjeta-agent",
     fingerSource: "https://github.com/NavneetMishraCodes/finger-pointer-bigass",
     drivingSource: "https://github.com/NavneetMishraCodes/Indian-Rash-Driving"
