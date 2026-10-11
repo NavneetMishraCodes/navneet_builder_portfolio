@@ -5,8 +5,8 @@
   string to keep its link hidden; the site will not invent URLs or credentials.
 */
 const SITE_CONFIG = {
-  email: "", // Example: "hello@example.com" — replace with an address you are comfortable sharing
-  github: "", // Example: "https://github.com/your-username"
+  email: "itsnavneetmishra89@gmail.com", // Example: "hello@example.com" — replace with an address you are comfortable sharing
+  github: "https://github.com/NavneetMishraCodes", // Example: "https://github.com/your-username"
   links: {
     captionSource: "",
     panjetaSource: "",
