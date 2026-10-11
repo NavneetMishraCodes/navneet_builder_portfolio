@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0b1020" />
+  <meta name="description" content="Navneet Mishra builds practical Python automation, small applications, websites, and data workflows." />
+  <title>Navneet Mishra — Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="page-shell">
+    <nav class="nav wrap" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="Navneet Mishra home"><span class="brand-mark">n.</span><span>navneet<span class="brand-muted">/builds</span></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Open navigation">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#services">What I do</a>
+        <a href="#work">Selected work</a>
+        <a href="#process">How I work</a>
+        <a class="nav-cta" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+
+    <main id="top">
+      <section class="hero wrap">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="status-dot"></span> PYTHON · DATA · WEB</div>
+          <h1>I build useful<br><span class="gradient-text">things that work.</span></h1>
+          <p class="hero-lede">I'm Navneet — a developer who enjoys turning repetitive tasks, messy data, and rough ideas into practical software.</p>
+          <p class="hero-sub">From Python automation and small apps to websites and data analysis, I like making complex things feel straightforward.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">Explore my work <span aria-hidden="true">↓</span></a>
+            <a class="button button-quiet" href="#services">Explore services <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-note"><span class="note-line"></span><span>Curious by default. Practical by design.</span></div>
+        </div>
+
+        <div class="hero-art" aria-label="Decorative code illustration">
+          <div class="orb orb-one"></div><div class="orb orb-two"></div>
+          <div class="code-window">
+            <div class="window-top"><div class="window-dots"><i></i><i></i><i></i></div><span>make_it_useful.py</span><span class="window-lock">●</span></div>
+            <div class="code-lines" aria-hidden="true">
+              <div><span class="line-no">01</span><span class="kw">def</span> <span class="fn">solve</span>(problem):</div>
+              <div><span class="line-no">02</span>&nbsp;&nbsp;needs = <span class="str">"understand"</span></div>
+              <div><span class="line-no">03</span>&nbsp;&nbsp;plan = <span class="fn">break_down</span>(needs)</div>
+              <div><span class="line-no">04</span>&nbsp;&nbsp;result = <span class="fn">build</span>(plan)</div>
+              <div><span class="line-no">05</span>&nbsp;&nbsp;<span class="kw">return</span> <span class="fn">test</span>(result)</div>
+              <div class="blank-line"><span class="line-no">06</span></div>
+              <div><span class="line-no">07</span><span class="comment"># small steps. solid results.</span></div>
+            </div>
+            <div class="code-footer"><span><b></b> ready to iterate</span><span>UTF-8&nbsp; · &nbsp;Python</span></div>
+          </div>
+          <div class="float-chip chip-a"><span class="chip-icon">⌘</span><span><b>Automate</b><small>less busywork</small></span></div>
+          <div class="float-chip chip-b"><span class="chip-icon chip-green">↗</span><span><b>Visualize</b><small>find the signal</small></span></div>
+          <div class="hero-grid-mark" aria-hidden="true"></div>
+        </div>
+        <div class="hero-bottomline"><span>INDEPENDENT BUILDER</span><span class="bottom-dash"></span><span>ALWAYS LEARNING, ALWAYS SHIPPING</span><span class="bottom-index">01 / 04</span></div>
+      </section>
+
+      <section class="section wrap" id="services">
+        <div class="section-heading">
+          <div><div class="eyebrow">01 — WHAT I CAN BUILD</div><h2>One toolkit.<br><span class="muted-heading">Five ways to help.</span></h2></div>
+          <p class="section-intro">Different problems call for different tools. These are the five areas I'm developing and building projects around.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card service-featured"><div class="service-top"><span class="service-number">01</span><span class="service-symbol">{ }</span></div><h3>Python automation</h3><p>Replace repetitive clicks and manual steps with scripts that save time and reduce avoidable mistakes.</p><div class="tag-row"><span>File workflows</span><span>Batch jobs</span><span>Reports</span></div><div class="service-foot"><span>PYTHON</span><span>↗</span></div></article>
+          <article class="service-card"><div class="service-top"><span class="service-number">02</span><span class="service-symbol">▧</span></div><h3>Small-scale apps</h3><p>Useful desktop utilities and simple interfaces that make a task easier for the person using them.</p><div class="tag-row"><span>Desktop GUI</span><span>Utilities</span><span>Prototypes</span></div><div class="service-foot"><span>PYTHON · GUI</span><span>↗</span></div></article>
+          <article class="service-card"><div class="service-top"><span class="service-number">03</span><span class="service-symbol">⌘</span></div><h3>Websites</h3><p>Responsive pages and small interactive web experiences designed to be clear, fast, and easy to use.</p><div class="tag-row"><span>HTML/CSS</span><span>JavaScript</span><span>Responsive UI</span></div><div class="service-foot"><span>WEB</span><span>↗</span></div></article>
+          <article class="service-card"><div class="service-top"><span class="service-number">04</span><span class="service-symbol">⌁</span></div><h3>Exploratory data analysis</h3><p>Explore a dataset, ask useful questions, visualize patterns, and communicate what the data does—and doesn't—show.</p><div class="tag-row"><span>EDA</span><span>Charts</span><span>Insights</span></div><div class="service-foot"><span>DATA</span><span>↗</span></div></article>
+          <article class="service-card service-wide"><div class="service-top"><span class="service-number">05</span><span class="service-symbol">⠿</span></div><div class="service-wide-copy"><h3>Data cleaning & preprocessing</h3><p>Make raw datasets more usable by handling duplicates, inconsistent formats, missing values, and repeatable transformations—with a record of what changed.</p></div><div class="tag-row"><span>pandas</span><span>CSV / Excel</span><span>Validation</span><span>Reproducible steps</span></div><div class="service-foot"><span>DATA QUALITY</span><span>↗</span></div></article>
+        </div>
+        <p class="honesty-note"><span class="tiny-star">✳</span> I take on work that fits my current ability and agree on scope and deliverables before starting.</p>
+      </section>
+
+      <section class="work-section" id="work">
+        <div class="wrap section">
+          <div class="section-heading work-heading">
+            <div><div class="eyebrow">02 — SELECTED BUILDS</div><h2>Things I've been<br><span class="muted-heading">making real.</span></h2></div>
+            <p class="section-intro">Personal projects are where I explore ideas, work through technical problems, and practice delivering complete experiences.</p>
+          </div>
+          <div class="project-grid">
+            <article class="project-card project-large">
+              <div class="project-visual caption-visual"><div class="visual-label">DESKTOP APP / 01</div><div class="caption-ui"><div class="caption-side"><span class="mini-logo">cc.</span><span class="side-line active"></span><span class="side-line"></span><span class="side-line"></span></div><div class="caption-main"><div class="mini-heading">Caption Studio</div><div class="waveform"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div><div class="subtitle-row"><b>00:00:04</b><span>Turn speech into editable captions.</span></div><div class="subtitle-row dim"><b>00:00:08</b><span>Review, adjust, and export.</span></div></div></div></div>
+              <div class="project-content"><div class="project-kicker"><span>PYTHON · DESKTOP</span><span class="project-index">01</span></div><h3>Caption Studio</h3><p>A desktop-app project exploring transcription and caption workflows with an interface built around media-processing tools.</p><div class="tag-row"><span>PySide6</span><span>FFmpeg</span><span>faster-whisper</span></div><div class="project-actions"><button class="text-link project-details" data-project="caption">Project notes <span>↗</span></button><a class="text-link optional-link" data-link-key="captionSource" href="#" hidden>Source code ↗</a></div></div>
+            </article>
+            <article class="project-card">
+              <div class="project-visual agent-visual"><div class="visual-label">LLM TOOLING / 02</div><div class="terminal-card"><div class="terminal-bar"><i></i><i></i><i></i><span>panjeta-agent</span></div><div class="terminal-body"><p><span class="prompt">›</span> task: organize project files</p><p class="terminal-muted">planning tools...</p><p><span class="terminal-green">✓</span> inspect_files()</p><p><span class="terminal-green">✓</span> propose_actions()</p><p class="terminal-muted">approval → execute</p><div class="terminal-cursor"></div></div></div></div>
+              <div class="project-content"><div class="project-kicker"><span>PYTHON · AI</span><span class="project-index">02</span></div><h3>Panjeta Agent</h3><p>A CLI assistant concept built around LLM providers, tool calling, file operations, and provider failover.</p><div class="tag-row"><span>Python</span><span>LLM APIs</span><span>Tool registry</span></div><div class="project-actions"><button class="text-link project-details" data-project="panjeta">Project notes <span>↗</span></button><a class="text-link optional-link" data-link-key="panjetaSource" href="#" hidden>Source code ↗</a></div></div>
+            </article>
+            <article class="project-card">
+              <div class="project-visual finger-visual"><div class="visual-label">COMPUTER VISION / 03</div><div class="pointer-screen"><div class="screen-toolbar"><span></span><span></span><span></span></div><div class="screen-content"><div class="screen-crosshair"></div><div class="screen-cursor"><i></i></div><div class="hand-point hp1"></div><div class="hand-point hp2"></div><div class="tracking-label">HAND TRACKING <b>● LIVE CONCEPT</b></div></div></div></div>
+              <div class="project-content"><div class="project-kicker"><span>VISION · INPUT</span><span class="project-index">03</span></div><h3>Finger Pointer</h3><p>A webcam-based touchless mouse-controller project using hand landmarks, cursor mapping, smoothing, and gesture recognition.</p><div class="tag-row"><span>MediaPipe</span><span>OpenCV</span><span>Python</span></div><div class="project-actions"><button class="text-link project-details" data-project="finger">Project notes <span>↗</span></button><a class="text-link optional-link" data-link-key="fingerSource" href="#" hidden>Source code ↗</a></div></div>
+            </article>
+            <article class="project-card project-wide-card">
+              <div class="project-visual driving-visual"><div class="visual-label">BROWSER GAME / 04</div><div class="road-scene"><div class="sky-glow"></div><div class="city-silhouette city-back"></div><div class="city-silhouette city-front"></div><div class="road"><span class="road-line road-line-one"></span><span class="road-line road-line-two"></span><span class="road-line road-line-three"></span></div><div class="car-shape"><i></i></div><div class="hud-speed"><small>SPEED</small><b>042</b><small>KM/H</small></div></div></div>
+              <div class="project-content"><div class="project-kicker"><span>WEB · THREE.JS</span><span class="project-index">04</span></div><h3>Indian Rash Driving</h3><p>A browser-game project exploring a 3D driving experience with web technologies and game-style interaction.</p><div class="tag-row"><span>Three.js</span><span>JavaScript</span><span>Vite</span></div><div class="project-actions"><button class="text-link project-details" data-project="driving">Project notes <span>↗</span></button><a class="text-link optional-link" data-link-key="drivingSource" href="#" hidden>Source code ↗</a></div></div>
+            </article>
+          </div>
+          <div class="project-footnote"><span class="footnote-dot"></span> Project descriptions summarize personal builds; demos and repository links can be added as they are ready.</div>
+        </div>
+      </section>
+
+      <section class="section wrap process-section" id="process">
+        <div class="section-heading"><div><div class="eyebrow">03 — HOW I WORK</div><h2>Clear process.<br><span class="muted-heading">No mystery.</span></h2></div><p class="section-intro">A good result starts with understanding the problem—not jumping straight into code.</p></div>
+        <div class="process-grid">
+          <article><span class="process-number">01</span><h3>Understand</h3><p>Clarify the goal, inputs, constraints, and what a successful result looks like.</p></article>
+          <article><span class="process-number">02</span><h3>Scope</h3><p>Agree on deliverables, timeline, assumptions, and what is outside the project.</p></article>
+          <article><span class="process-number">03</span><h3>Build & test</h3><p>Implement in small steps, test expected behavior, and handle common failure cases.</p></article>
+          <article><span class="process-number">04</span><h3>Hand over</h3><p>Provide the files, setup notes, and a straightforward explanation of how to use the result.</p></article>
+        </div>
+        <div class="principle-strip"><span class="principle-mark">✳</span><p><b>My working principle:</b> be clear about what's done, what isn't, and what needs testing. No inflated promises.</p><span class="principle-code">BUILD / TEST / IMPROVE</span></div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="wrap contact-inner">
+          <div class="eyebrow">04 — HAVE A PROBLEM TO SOLVE?</div>
+          <h2>Let's make it<br><span class="gradient-text">less complicated.</span></h2>
+          <p>Have a small task, a useful idea, or a workflow that needs simplifying? Share the goal and the constraints. We'll start by figuring out the right scope.</p>
+          <div class="contact-actions" id="contactActions"><a class="button button-primary" id="emailButton" href="#contact-form">Start a conversation <span>↗</span></a><a class="button button-outline optional-link" id="githubButton" data-link-key="github" href="#" hidden>GitHub <span>↗</span></a></div>
+          <form class="contact-form" id="contact-form">
+            <label for="projectMessage">Or sketch the project in a few words</label>
+            <div class="form-row"><input id="projectMessage" name="projectMessage" type="text" placeholder="e.g. automate monthly Excel reports" maxlength="240" /><button class="button button-secondary" type="submit">Prepare message ↗</button></div>
+            <p class="form-hint" id="formHint">This creates a message draft; it won't send anything automatically.</p>
+          </form>
+          <div class="contact-bottom"><span>BUILT WITH CURIOSITY</span><span>© <span id="year"></span> NAVNEET MISHRA</span><a href="#top">BACK TO TOP ↑</a></div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <dialog class="project-dialog" id="projectDialog" aria-labelledby="dialogTitle">
+    <button class="dialog-close" id="dialogClose" aria-label="Close project notes">×</button>
+    <div class="eyebrow" id="dialogKicker">PROJECT NOTES</div>
+    <h2 id="dialogTitle">Project</h2>
+    <p id="dialogDescription"></p>
+    <div class="dialog-section"><h3>Focus</h3><p id="dialogFocus"></p></div>
+    <div class="dialog-section"><h3>Technologies</h3><p id="dialogTech"></p></div>
+    <div class="dialog-section"><h3>Good next proof to add</h3><p id="dialogProof"></p></div>
+    <a class="button button-primary dialog-source" id="dialogSource" href="#" hidden>Open repository ↗</a>
+  </dialog>
+</body>
+</html>
